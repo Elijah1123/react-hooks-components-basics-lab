@@ -16,24 +16,23 @@ function Home() {
   );
 }
 
-function About() {
+function About(){
   return (
     <div id="about">
-      <h2>About</h2>
+     <h2>About</h2>
+
     </div>
+  
   );
 }
-
-
-function App() {
+function App(){
   return (
     <div>
-      <NavBar />
-       <Home/>
-       <About/>
-      
+      <NavBar/>
+      <Home/>
+      <About/>
     </div>
-  );
+  )
 }
 
 export default App;
